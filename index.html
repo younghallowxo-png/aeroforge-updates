@@ -339,7 +339,7 @@ const esc=v=>String(v).replace(/[<>&"]/g,'');
 const dAdd=t=>{if(S.dec.length>=10)return;S.dec.push(t=='flag'?{t,v:'US',p:'fin',z:1}:t=='logo'?{t,v:'roundel',p:'wingR',z:1}:{t,v:'ТЕКСТ',p:'body',z:1,c:'#ffffff'});render()},dRm=i=>{S.dec.splice(i,1);render()},dM=i=>{const x=S.dec[i],mp={wingL:'wingR',wingR:'wingL'};if(!mp[x.p]||S.dec.length>=10)return;S.dec.push(Object.assign({},x,{p:mp[x.p]}));render()},
 dV=(i,d)=>{const x=S.dec[i],k=Object.keys(x.t=='flag'?FL:LG),n=k.length;x.v=k[(k.indexOf(x.v)+d+n)%n];AN={k:'dec'+i,d};render()},dP=(i,d)=>{const x=S.dec[i],k=Object.keys(PSN),n=k.length;x.p=k[(k.indexOf(x.p)+d+n)%n];AVk('dec:'+x.p);AN={k:'dec'+i,d};render()};
 const camoSet=()=>{const c=D.camo.i[S.camo][4];Object.assign(S,{ct:c.c,cb:c.b,cw:c.a,cta:c.a})};
-const VERSION='0.6.9',UI={1:'fus',2:'eng',3:'radar',4:'ex',5:'mat'};
+const VERSION='0.6.9.1',UI={1:'fus',2:'eng',3:'radar',4:'ex',5:'mat'};
 const STEPS=['Проект прототипа','Планер','Двигатель','Системы','Доп. системы','Дизайн','Вооружение','Итоги и цена','Прототип'];
 const maxPairs=()=>cl(Math.floor((S.Sp/2-.8)/.75),1,7),slots=()=>{const n=cl(S.npy||1,1,maxPairs()),a=S.pc?[0]:[];for(let j=0;j<n;j++){const f=+(n==1?.32:.14+.72*j/(n-1)).toFixed(3);a.push(f,-f)}return a};
 const PKN=[['Лёгкие','до 350 кг на узел · 25 кг каждый'],['Стандартные','до 1 100 кг на узел · 60 кг каждый'],['Тяжёлые','до 2 300 кг на узел · 120 кг каждый']],PKC=[350,1100,2300],pylLim=(s,f)=>{const C=PKC[s.pk??1],u=Math.abs(f);return Math.round(f==0?(s.role=='interceptor'&&(s.pk??1)==2?4500:C*1.1):C*(u<=.4?1:u<=.7?.7:.3))};
@@ -2669,14 +2669,23 @@ html.mw820 .mdb.setm .setg{grid-template-columns:1fr}
 `;document.head.appendChild(st)}
 
 // ===================== 0.6.9: обратная связь =====================
-const FB={to:'maidenprod@gmail.com',tg:'COBA_HA_GLOBUS',url:'https://formsubmit.co/ajax/maidenprod@gmail.com',kind:'rate',stars:0,errs:[],last:0};
+const FB={to:'maidenprod@gmail.com',tg:'COBA_HA_GLOBUS',bot:'8685773415:AAFWlENL1IEy5eQ-WetAt6eycJPUGENX5UA',chat:'7584680130',kind:'rate',stars:0,errs:[],last:0};
 addEventListener('error',e=>{try{FB.errs.push((e.message||'')+' @'+(e.lineno||'')+':'+(e.colno||''));if(FB.errs.length>12)FB.errs.shift()}catch(x){}});
 addEventListener('unhandledrejection',e=>{try{FB.errs.push('promise: '+String(e.reason&&e.reason.message||e.reason).slice(0,200));if(FB.errs.length>12)FB.errs.shift()}catch(x){}});
 const fbPlat=()=>{const u=navigator.userAgent;return /Electron/.test(u)?(/Windows/.test(u)?'Windows app':/Mac/.test(u)?'macOS app':'Desktop app'):/AeroforgeAndroid|; wv\)/.test(u)&&/Android/.test(u)?'Android app':/Android/.test(u)?'Android browser':/iPhone|iPad/.test(u)?'iOS browser':'Browser'};
 const fbInfo=()=>{let g='';try{if(G)g=`${G.okb&&G.okb.name} · ${fd(G.day)} · $${Math.round(G.funds)}M · rep ${Math.round(G.rep)}`}catch(e){}
  return{version:VERSION,platform:fbPlat(),screen:`${innerWidth}x${innerHeight} @${devicePixelRatio}x · UI ${Math.round(UIZ.z*100)}%`+(isMob()?' · mobile':''),language:EN?'en':'ru',game:g||'—',ua:navigator.userAgent.slice(0,180)}};
 const fbQ=()=>{try{return JSON.parse(localStorage.getItem('aeroforge.fbq')||'[]')}catch(e){return[]}},fbQs=q=>{try{localStorage.setItem('aeroforge.fbq',JSON.stringify(q.slice(-10)))}catch(e){}};
-async function fbPost(d){const r=await fetch(FB.url,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(d)});if(!r.ok)throw new Error('http '+r.status);const j=await r.json().catch(()=>({}));if(j&&String(j.success)=='false')throw new Error(j.message||'fail');return true}
+const fbEsc=x=>String(x==null?'':x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const fbText=d=>{const ic={'Оценка':'⭐','Rating':'⭐','Баг':'🐞','Bug':'🐞','Идея':'💡','Idea':'💡'}[d.type]||'✉️';
+ const L2=[`${ic} <b>${fbEsc(d._subject||'AEROFORGE')}</b>`];if(d.rating)L2.push(`Оценка: <b>${fbEsc(d.rating)}</b>`);
+ L2.push('',fbEsc(String(d.message||'—').slice(0,3000)),'');if(d.contact&&d.contact!='—')L2.push(`Контакт: ${fbEsc(d.contact)}`);
+ L2.push(`<i>${fbEsc(d.version)} · ${fbEsc(d.platform)} · ${fbEsc(d.language)}</i>`,`<i>${fbEsc(d.screen)}</i>`);
+ if(d.game)L2.push(`Игра: ${fbEsc(d.game)}`);if(d.errors&&d.errors!='—')L2.push(`<pre>${fbEsc(String(d.errors).slice(0,700))}</pre>`);if(d.useragent)L2.push(`<i>${fbEsc(d.useragent)}</i>`);
+ return L2.join('\n').slice(0,4000)};
+async function fbPost(d){const c=new AbortController(),t=setTimeout(()=>c.abort(),15000);
+ try{const r=await fetch(`https://api.telegram.org/bot${FB.bot}/sendMessage`,{method:'POST',signal:c.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:FB.chat,text:fbText(d),parse_mode:'HTML',disable_web_page_preview:true})});
+  const j=await r.json().catch(()=>({}));if(!r.ok||!j.ok)throw new Error('tg '+r.status+' '+(j.description||''));return true}finally{clearTimeout(t)}}
 async function fbFlush(){const q=fbQ();if(!q.length)return;const left=[];for(const d of q){try{await fbPost(d)}catch(e){left.push(d)}}fbQs(left)}
 setTimeout(()=>{try{fbFlush()}catch(e){}},8000);
 const FBK=()=>[['rate','star',L('Оценить игру','Rate the game')],['bug','bug',L('Сообщить о баге','Report a bug')],['idea','idea',L('Предложить идею','Suggest an idea')]];
