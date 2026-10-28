@@ -1,9 +1,9 @@
 {
- "version": "0.6.9.2",
+ "version": "0.7.0",
  "minShell": 1,
  "file": "index.html",
- "size": 926260,
- "sha256": "73a783c00a775fe8e072716e83fa9bcef8a407d83aebaac031f69d05c4e474f3",
- "sig": "lpFUVkhj4tHwdCWj+GJUqb3w/VIGsTqXqf7BBwPkfsWQkhny3+HBkwiFMbmf+Ckp3Yk/a6JUo2YBEJGYugbMDg==",
+ "size": 1013902,
+ "sha256": "97850a1d1a3137d5fba3ebcb33bf1e9e608834dbf5fda044bc3901a891961185",
+ "sig": "U7zYOGuWjQ4C32MCK3zBuiWlfNA/PUxpYES50xlVxUaG5J3LujdW07f0RjfYtYgZ0MW9TSoAS94KskzTsJfHBw==",
  "date": "2026-10-28"
 }
