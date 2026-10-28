@@ -1,9 +1,10 @@
 {
- "version": "0.7.0.1",
- "minShell": 1,
+ "version": "0.7.0.3",
+ "minShell": 2,
  "file": "index.html",
- "size": 1014379,
- "sha256": "76f6abb80534c53df846cb83abaa4f87fb361dcbaf830da07900e2f1bee45836",
- "sig": "DubyO3oJfz1B5aje3H6Cxcze1E6e5dAqXtxhq1YOV2JoOrYkzIl5uM6DRsSGW9NqxGSvTQD0Jxik/oCSQlzjCA==",
- "date": "2026-10-28"
+ "size": 1028437,
+ "sha256": "7240374189c7e4f688b2b1839e0dfc1c1de3d7fb5d4be15f5ee2e67a49375f99",
+ "sig": "DXprk2AW4hH+GaZACgth+U7drJA7WLKCGp5sXUFR+gqWFp13vpB7fhrstjP3hinoan+cwxoSCAlA4iQE26VRBg==",
+ "title": "Поддержка, починки и музыка",
+ "summary": "Кнопка поддержки, выбор языка, автоскачивание музыки и несколько исправлений."
 }
