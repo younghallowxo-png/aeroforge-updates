@@ -1,59 +1,45 @@
 {
- "version": "0.8.0",
+ "version": "0.8.2",
  "minShell": 2,
  "file": "index.html",
- "size": 1121243,
- "sha256": "1a1633136bc2e22b6f80ca77e8e372010211e72aa617841fe42acba73af6eaf3",
- "sig": "PH/eGB6ASWRa4kIzhyZyXX/gkBAU2Pan+G7IaXmOoxaX6f1+Z8BH0Ep6z9BlDHADJmlpUWXP3WuzirIiZQU7BQ==",
- "title": "Контракты, Су-25 и скорость",
- "summary": "Новая логика конкурсов, набор деталей Су-25, формы гондол, настоящие флаги, быстрее долгие партии; в песочнице бесконечные деньги, в исследованиях — справка по деталям.",
+ "size": 1157038,
+ "sha256": "e1c0e8cb123d6e42ea0702a3d3ecef1d6e6c9338cfac8b5e5a12946989da5cd0",
+ "sig": "MPuMeUihkA0B6xtmIrazxuCAsKhMBmizTEcLWegSFuyAIEUGebpgK85PtskXcMCSwNyRuDZTmSW+52DzVF/NAg==",
+ "title": "",
+ "summary": "",
  "music": [
   {
    "file": "music_1.mp3",
-   "artist": "Virginia Liston",
-   "title": "Night Latch Key Blues",
    "sha256": "b4bed974bc3678f2306d3a11d23c71c7a2a63461ee6c482b6cb59a21750a5d09",
    "size": 4451892
   },
   {
    "file": "music_2.mp3",
-   "artist": "Coleman Hawkins",
-   "title": "Body and Soul",
    "sha256": "853d598a10b02ba9f580f84d516b96bdfae4e84cb0a00b66b8e35148091a6f67",
    "size": 4276349
   },
   {
    "file": "music_3.mp3",
-   "artist": "Louis Armstrong",
-   "title": "Ain't Misbehavin'",
    "sha256": "ed36e922b8705c1ed1984b42e12de6e519f39c971195f46bd221740fd97d0db6",
    "size": 4840594
   },
   {
    "file": "music_4.mp3",
-   "artist": "",
-   "title": "Kalinka",
    "sha256": "585aef139f0895a823f355647ea65b63b50a58ee9fc5fd10bce80f494c8ab0ee",
    "size": 3934667
   },
   {
    "file": "music_5.mp3",
-   "artist": "Gustav Holst",
-   "title": "Mars, the Bringer of War",
    "sha256": "b1f0ff17e88b0caf0078302da4f9f4ff2fbd64b78d60f8cd50a172f5592f14b3",
    "size": 4592640
   },
   {
    "file": "music_6.mp3",
-   "artist": "HCABBC",
-   "title": "Vietnam",
    "sha256": "220273240691350ed51905f59e4f5f6a338f40ecabf583b45c7f8cae69af1007",
    "size": 6625280
   },
   {
    "file": "music_7.mp3",
-   "artist": "Joint C",
-   "title": "War Trouble",
    "sha256": "f43cea51a9737e740b472e47fad7da3d96edd260ce4196c4824b3e7d7d1b128c",
    "size": 9126691
   }
