@@ -1,12 +1,12 @@
 {
- "version": "0.9.0",
+ "version": "0.9.0.1",
  "minShell": 2,
  "file": "index.html",
- "size": 2756080,
- "sha256": "00638c6bb68c1a291bfbb5cd8d76dfde501b969a96896ff0abcaddd895a9dfd9",
- "sig": "U6LISFEZrqRG/rcS+YLgT/qpvzzfMWcBEth6jJ1BO0va9sF4xGmYSW5LzlUG2zn7NwwVztSmmTPYUErsGUAsDA==",
- "title": "Версия 0.9.0: самолёт в центре",
- "summary": "Конструктор в стиле HUD: карусели, новые панели и карточки показателей, фото в новостях и на заставке.",
+ "size": 2758131,
+ "sha256": "f8e03d5b48995f52a9b409b12d408e98a0cd6065f4fe2f3e2f5bd91662e8aff6",
+ "sig": "IofARTmBKjFsSa3CmMGfbCJeFpuY2YW1YdYeurgQRhlkES6bHZQOooLR7vIyImMS1E+/gHkyDev6OP5c742xAQ==",
+ "title": "Версия 0.9.0.1: исправления",
+ "summary": "Телефон: прокрутка и меньше тормозов; исследования: кнопки приоритета больше не прыгают.",
  "music": [
   {
    "file": "music_1.mp3",
