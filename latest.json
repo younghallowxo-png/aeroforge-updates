@@ -1,12 +1,12 @@
 {
- "version": "0.8.3",
+ "version": "0.9.0",
  "minShell": 2,
  "file": "index.html",
- "size": 1162630,
- "sha256": "3b9550444db12e640e16e928562e4aa61fedaa4e6075b0894d148595b7f9b7f4",
- "sig": "JIVq1AR+WMgUMXjXRcbvhyNX7c7COl2pbD5rqucuUeo5ZthkFhEvWO1c61Ih2A1Pqv3rNWd7UAmzHsUGs1J4AQ==",
- "title": "Слоты сохранений",
- "summary": "Четыре слота сохранений: новая игра в любой слот, продолжение любого сохранения. Старое сохранение стало слотом 1.",
+ "size": 2756080,
+ "sha256": "00638c6bb68c1a291bfbb5cd8d76dfde501b969a96896ff0abcaddd895a9dfd9",
+ "sig": "U6LISFEZrqRG/rcS+YLgT/qpvzzfMWcBEth6jJ1BO0va9sF4xGmYSW5LzlUG2zn7NwwVztSmmTPYUErsGUAsDA==",
+ "title": "Версия 0.9.0: самолёт в центре",
+ "summary": "Конструктор в стиле HUD: карусели, новые панели и карточки показателей, фото в новостях и на заставке.",
  "music": [
   {
    "file": "music_1.mp3",
