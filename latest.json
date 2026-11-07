@@ -1,12 +1,12 @@
 {
- "version": "0.9.0.2",
+ "version": "0.9.1",
  "minShell": 2,
  "file": "index.html",
- "size": 2761195,
- "sha256": "86e7cd8d901fa53c74022aee9f0c01f4cc08e3c3728ef9db0e4608027980720f",
- "sig": "uey3NgDK8KunyobQvjGdlfDP75IX/BpWhTcp/C3uOWxtvHn3QYpY8d0voB+gsXKvakNwGcdg7oT+WSzyJz56Cg==",
- "title": "Версия 0.9.0.2: исправления",
- "summary": "Конструктор снова показывает предупреждения и окно команды, лётчики-испытатели находятся, понятнее закрытая линия.",
+ "size": 3486041,
+ "sha256": "95f2ab09debaa98ea40dd9903ffb6d657b5640130856d90deea6d17a63c6d5e6",
+ "sig": "UBYvx8O878IIR55PBqaBKPgZoWhWwa2sOmnoy24gNlgtVRYogw/j0iPqVsGQmOaHR7pCOllNiO8gTFYGb7gyBw==",
+ "title": "Версия 0.9.1: испанский язык и обновлённый штаб",
+ "summary": "Испанский язык, штаб из карточек, новое дерево исследований, карта контрактов, инфраструктура с городами и сетью, отдел кадров.",
  "music": [
   {
    "file": "music_1.mp3",
