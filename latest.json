@@ -1,12 +1,12 @@
 {
- "version": "0.9.1",
+ "version": "0.9.1.1",
  "minShell": 2,
  "file": "index.html",
- "size": 3486041,
- "sha256": "95f2ab09debaa98ea40dd9903ffb6d657b5640130856d90deea6d17a63c6d5e6",
- "sig": "UBYvx8O878IIR55PBqaBKPgZoWhWwa2sOmnoy24gNlgtVRYogw/j0iPqVsGQmOaHR7pCOllNiO8gTFYGb7gyBw==",
- "title": "Версия 0.9.1: испанский язык и обновлённый штаб",
- "summary": "Испанский язык, штаб из карточек, новое дерево исследований, карта контрактов, инфраструктура с городами и сетью, отдел кадров.",
+ "size": 3488868,
+ "sha256": "5a53ca95acb98f8f08d81bbde9daa4409fff2f834d9b504310331f1d6898da8e",
+ "sig": "6w2ZIMkp6e1NBShjDiADZsLh3hmoW0wFg/G2qyHVqyf97390IMHe/w5RYmNwlR+0+izCDFGL+ocG8/h7xB2RCw==",
+ "title": "Версия 0.9.1.1: хотфикс",
+ "summary": "Вернули открытие нового поколения, починили зависание исследований, внутренний отсек на первом прототипе, прокрутку контрактов и чёрную полосу в конструкторе.",
  "music": [
   {
    "file": "music_1.mp3",
