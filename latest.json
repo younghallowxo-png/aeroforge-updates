@@ -1,12 +1,12 @@
 {
- "version": "0.10",
+ "version": "0.10.0.1",
  "minShell": 2,
  "file": "index.html",
- "size": 4697460,
- "sha256": "a1e846e8fe2cb3e2eeffbe9b245631068a2b0d421343cd98a74926de649007cd",
- "sig": "5bV8Fc1Fy5iDlqRG36z10dOUQzy4VDXqrcHOyW6Y8k1occo/SLYD6aAFHTG/+hPlOmkCXO6y9+x2Swve2Tw+DQ==",
- "title": "Версия 0.10: 3D-модель и тяжёлая авиация",
- "summary": "Самолёт показан единой 3D-моделью с настройками качества, появились бомбардировщики, транспортники, заправщики и ДРЛО, четыре новые страны и честные контракты.",
+ "size": 4722324,
+ "sha256": "4edf225dade3638a1d5f740895bff7ba7eab2cbf1abb9ff7185baff18073b83b",
+ "sig": "Kyr2dGiTyrq1kEOqQ6fzY6zpAomADVwCnKNwjPO8d8j9qq80FYuNoQ0SWWn6+fpAanaJte5kO1e1fRzU/HGqAw==",
+ "title": "Версия 0.10.0.1: хотфикс",
+ "summary": "Исследования с чистого листа, разумные требования к тяжёлым машинам, честные конкурсы, подсказки в конструкторе, плавные ползунки, переводы без транслита и города на своих местах.",
  "music": [
   {
    "file": "music_1.mp3",
