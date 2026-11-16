@@ -1,12 +1,12 @@
 {
- "version": "0.9.1.1",
+ "version": "0.10",
  "minShell": 2,
  "file": "index.html",
- "size": 3488868,
- "sha256": "5a53ca95acb98f8f08d81bbde9daa4409fff2f834d9b504310331f1d6898da8e",
- "sig": "6w2ZIMkp6e1NBShjDiADZsLh3hmoW0wFg/G2qyHVqyf97390IMHe/w5RYmNwlR+0+izCDFGL+ocG8/h7xB2RCw==",
- "title": "Версия 0.9.1.1: хотфикс",
- "summary": "Вернули открытие нового поколения, починили зависание исследований, внутренний отсек на первом прототипе, прокрутку контрактов и чёрную полосу в конструкторе.",
+ "size": 4697460,
+ "sha256": "a1e846e8fe2cb3e2eeffbe9b245631068a2b0d421343cd98a74926de649007cd",
+ "sig": "5bV8Fc1Fy5iDlqRG36z10dOUQzy4VDXqrcHOyW6Y8k1occo/SLYD6aAFHTG/+hPlOmkCXO6y9+x2Swve2Tw+DQ==",
+ "title": "Версия 0.10: 3D-модель и тяжёлая авиация",
+ "summary": "Самолёт показан единой 3D-моделью с настройками качества, появились бомбардировщики, транспортники, заправщики и ДРЛО, четыре новые страны и честные контракты.",
  "music": [
   {
    "file": "music_1.mp3",
