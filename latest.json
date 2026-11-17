@@ -1,12 +1,12 @@
 {
- "version": "0.10.0.1",
+ "version": "0.10.0.2",
  "minShell": 2,
  "file": "index.html",
- "size": 4722324,
- "sha256": "4edf225dade3638a1d5f740895bff7ba7eab2cbf1abb9ff7185baff18073b83b",
- "sig": "Kyr2dGiTyrq1kEOqQ6fzY6zpAomADVwCnKNwjPO8d8j9qq80FYuNoQ0SWWn6+fpAanaJte5kO1e1fRzU/HGqAw==",
- "title": "Версия 0.10.0.1: хотфикс",
- "summary": "Исследования с чистого листа, разумные требования к тяжёлым машинам, честные конкурсы, подсказки в конструкторе, плавные ползунки, переводы без транслита и города на своих местах.",
+ "size": 4723943,
+ "sha256": "22fbbcf28993be26e3209a580d8fcc1677e46cb00c6ad49a9db447171218d3da",
+ "sig": "A9ZBJ7q+7h2oDj4nAG8Fh1b8C36OqYc/sOVYxaROqZGmerSvAkx28MteZOb/8/o/xnSRU/1r9BknKz/b/ItyAg==",
+ "title": "Версия 0.10.0.2: хотфикс",
+ "summary": "Исправлен вылет в исследованиях тяжёлой авиации, снова открываются поколения, доп. системы на английском.",
  "music": [
   {
    "file": "music_1.mp3",
