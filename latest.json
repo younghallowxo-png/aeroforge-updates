@@ -1,12 +1,12 @@
 {
- "version": "0.10.0.2",
+ "version": "0.10.1",
  "minShell": 2,
  "file": "index.html",
- "size": 4723943,
- "sha256": "22fbbcf28993be26e3209a580d8fcc1677e46cb00c6ad49a9db447171218d3da",
- "sig": "A9ZBJ7q+7h2oDj4nAG8Fh1b8C36OqYc/sOVYxaROqZGmerSvAkx28MteZOb/8/o/xnSRU/1r9BknKz/b/ItyAg==",
- "title": "Версия 0.10.0.2: хотфикс",
- "summary": "Исправлен вылет в исследованиях тяжёлой авиации, снова открываются поколения, доп. системы на английском.",
+ "size": 5094522,
+ "sha256": "a93e784b050d7c92293cef47cd993a5704c077215b855bf8aeec01db0c4a71e4",
+ "sig": "PW80pityAlniMODsr6lAGui8ne0bBXSAlsOZKXAAKC6rGMld8OKWMBE0zGUnZqmSvSASpGhlNMDyS6OaeQG4Cw==",
+ "title": "Бета 3D-конструктора",
+ "summary": "Новая обшивка и 4 камуфляжа, ПТБ и выбор точек подвеса, мягкие доработки и модернизации (D/Д), понятный конструктор, настоящие доп. системы, анимации на 3D-модели, обозначения США по роли; старые плоские детали заменены 3D-наборами, вернулись оперение A-10 и летающее крыло.",
  "music": [
   {
    "file": "music_1.mp3",
