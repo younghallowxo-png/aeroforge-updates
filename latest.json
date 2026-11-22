@@ -1,12 +1,12 @@
 {
- "version": "0.10.1.1",
+ "version": "0.10.1.2",
  "minShell": 2,
  "file": "index.html",
- "size": 5126332,
- "sha256": "f59bdbf44983aaebace2367c10f8e5abfaf73050ee649be9dca3ac583db6f9bf",
- "sig": "mlVlzXxWkisssTkzUSWEjBTHN+/2Amcs+sYcGutyaaHiO4015sDe2/3sae1rCVC+UpidCCCiM6sDU9jQE8vUCQ==",
- "title": "Исправления беты 0.10.1.1",
- "summary": "Манёвренность зависит от крыла, фонари вплотную к фюзеляжу, экспорт 3D-модели и перенос сохранения файлом, сопла летающего крыла, разные шасси, честные дозвуковые учебные контракты, Су-34 в дереве исследований, соперники без анахронизмов.",
+ "size": 5128712,
+ "sha256": "5502a6374ccce1babd81133997e661200cb0eaccc20c18f4c7f613d60cd6827a",
+ "sig": "nufwuTV4zsuJ29ljWC7q7OLcmUmTk57Spd3CuILxlTZKG+xbPCqdDDMghjyh1ufqJFsGdR+meOo7gll4rmNtAQ==",
+ "title": "Version 0.10.1.2: production refinement fix",
+ "summary": "Numbers no longer drop when moving to production.",
  "music": [
   {
    "file": "music_1.mp3",
