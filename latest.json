@@ -1,12 +1,12 @@
 {
- "version": "0.10.2.1",
+ "version": "0.10.2.2",
  "minShell": 2,
  "file": "index.html",
- "size": 6086676,
- "sha256": "c05242b5ad6f98846983b19d5e39dcd09bd603f4030ef29eafb7e3d1cd7778a2",
- "sig": "GJWAj0eXFYx2cyBa7w4n0alVhfbxejWpi0ohJ4Nmi7Ex7WM/CiqUxziazdblCrsY2WekMAwMNpJBif/XSLffCg==",
- "title": "Бета 0.10.2.1",
- "summary": "Хотфикс: крыло тяжёлых машин больше не сжимается до истребительного размаха; двигатели появляются только на своём шаге",
+ "size": 6133658,
+ "sha256": "75559c79cab853e9a0da277f6e13564ad5fe65ec4d61b5f3fcfe719ad1880146",
+ "sig": "0Kbs7nSCIs/2P0amS6uNSEznVhD2GKlcM7V8/mhgidztRktRit8xNokYj9WiR7dTU8erPdmgI248AEuOKGdECw==",
+ "title": "Бета 0.10.2.2",
+ "summary": "Хотфикс: экспериментальные машины, свободное крыло, корма по соплам, механизация в 3D, Мах 3+, защита сохранений, исправления",
  "music": [
   {
    "file": "music_1.mp3",
