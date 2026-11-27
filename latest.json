@@ -1,12 +1,12 @@
 {
- "version": "0.10.1.2",
+ "version": "0.10.2",
  "minShell": 2,
  "file": "index.html",
- "size": 5128712,
- "sha256": "5502a6374ccce1babd81133997e661200cb0eaccc20c18f4c7f613d60cd6827a",
- "sig": "nufwuTV4zsuJ29ljWC7q7OLcmUmTk57Spd3CuILxlTZKG+xbPCqdDDMghjyh1ufqJFsGdR+meOo7gll4rmNtAQ==",
- "title": "Version 0.10.1.2: production refinement fix",
- "summary": "Numbers no longer drop when moving to production.",
+ "size": 6084382,
+ "sha256": "612f010b726412a1e4f0ababcc574b39e8c98e3e13119a4cb15d15dae941c4ad",
+ "sig": "dmmZiqFPEcxFgWhjKDj4SHZjbtyXWvBG+ofkOTDhGJQ7j8u6fCV9+z7Sn4/ty/05FljKBDf9NHYMTlCyxBtfCA==",
+ "title": "Бета 0.10.2",
+ "summary": "Новый интерфейс в стиле HUD, понятный конструктор с подсказками «что изменится», страница «Обзор», nose-art, боевые легенды, Хроника, нумерация прототипов, исправления",
  "music": [
   {
    "file": "music_1.mp3",
