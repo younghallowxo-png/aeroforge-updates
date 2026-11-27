@@ -1,12 +1,12 @@
 {
- "version": "0.10.2",
+ "version": "0.10.2.1",
  "minShell": 2,
  "file": "index.html",
- "size": 6084382,
- "sha256": "612f010b726412a1e4f0ababcc574b39e8c98e3e13119a4cb15d15dae941c4ad",
- "sig": "dmmZiqFPEcxFgWhjKDj4SHZjbtyXWvBG+ofkOTDhGJQ7j8u6fCV9+z7Sn4/ty/05FljKBDf9NHYMTlCyxBtfCA==",
- "title": "Бета 0.10.2",
- "summary": "Новый интерфейс в стиле HUD, понятный конструктор с подсказками «что изменится», страница «Обзор», nose-art, боевые легенды, Хроника, нумерация прототипов, исправления",
+ "size": 6086676,
+ "sha256": "c05242b5ad6f98846983b19d5e39dcd09bd603f4030ef29eafb7e3d1cd7778a2",
+ "sig": "GJWAj0eXFYx2cyBa7w4n0alVhfbxejWpi0ohJ4Nmi7Ex7WM/CiqUxziazdblCrsY2WekMAwMNpJBif/XSLffCg==",
+ "title": "Бета 0.10.2.1",
+ "summary": "Хотфикс: крыло тяжёлых машин больше не сжимается до истребительного размаха; двигатели появляются только на своём шаге",
  "music": [
   {
    "file": "music_1.mp3",
